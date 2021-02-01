@@ -1,3 +1,4 @@
+
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -6,7 +7,7 @@ p {
     line-height: 1.75;
 }
 a {
-    color: #fed136;
+    color:  rgb(1, 157, 157);
 }
 a.active,
 a:active,
@@ -46,11 +47,11 @@ section h3.section-subheading {
     }
 }
 ::-moz-selection {
-    background: #fed136;
+    background:  rgb(1, 157, 157);
     text-shadow: none;
 }
 ::selection {
-    background: #fed136;
+    background:  rgb(1, 157, 157);
     text-shadow: none;
 }
 img::selection {
@@ -60,7 +61,7 @@ img::-moz-selection {
     background: transparent;
 }
 body {
-    -webkit-tap-highlight-color: #fed136;
+    -webkit-tap-highlight-color:  rgb(1, 157, 157);
 }
 .offcanvas-btn {
     z-index: 100000;
@@ -69,7 +70,8 @@ body {
     right: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background:  rgb(1, 157, 157);
+    color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -129,12 +131,12 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color:  rgb(1, 157, 157);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-    color: #fed136;
+    color:  rgb(1, 157, 157);
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active,
@@ -154,7 +156,8 @@ body {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color:  rgb(1, 157, 157);
+    /* color: rgb(189, 63, 63); */
 }
 @media (min-width: 992px) {
     
@@ -187,10 +190,13 @@ body {
     }
    
 }
+
 header.masthead {
     text-align: center;
-    color: white;
-    background-image: url("../img/header-bg.jpg");
+    color: rgb(205, 243, 243);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    
+    background-image: url("../img/mountains.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -199,6 +205,11 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover;
 }
+
+header.masthead img {
+opacity: 0.2;
+}
+
 header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -449,7 +460,7 @@ header.masthead .intro-text .intro-heading {
     color: white;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color:  rgb(1, 157, 157);
 }
 .timeline > li .timeline-image h4 {
     font-size: 10px;
@@ -623,7 +634,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color:  rgb(1, 157, 157);
 }
 .flex-align-center {
     display: flex;
@@ -631,13 +642,13 @@ ul.social-buttons li a:hover {
     align-items: center;
 }
 .text-primary {
-    color: #fed136 !important;
+    color:  rgb(1, 157, 157) !important;
 }
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:  rgb(1, 157, 157);
+    background-color:  rgb(1, 157, 157);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -686,11 +697,11 @@ ul.social-buttons li a:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:  rgb(1, 157, 157);
+    background-color:  rgb(1, 157, 157);
 }
 .btn-primary .badge {
-    color: #fed136;
+    color:  rgb(1, 157, 157);
     background-color: white;
 }
 .btn-xl {
@@ -699,8 +710,8 @@ fieldset[disabled] .btn-primary:hover {
     padding: 20px 40px;
     border-radius: 3px;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:  rgb(1, 157, 157);
+    background-color:  rgb(1, 157, 157);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -749,11 +760,11 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color:  rgb(1, 157, 157);
+    background-color:  rgb(1, 157, 157);
 }
 .btn-xl .badge {
-    color: #fed136;
+    color:  rgb(1, 157, 157);
     background-color: white;
 }
 
