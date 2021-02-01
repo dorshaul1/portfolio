@@ -89,9 +89,9 @@ function renderModal() {
                   <img class="img-fluid d-block mx-auto" src=${protfolio.imgUrl} alt="">
                   <p>${protfolio.desc}</p>
                   <ul class="list-inline">
-                    <li>Date: ${protfolio.publishdAt}</li>
+                    <li>Date: ${protfolio.publishedAt}</li>
                     <li>Category: ${protfolio.category}</li>
-                    <li>link: ${protfolio.url}</li>
+                    <li>link: <a href ="${protfolio.url}">${protfolio.url}</a></a></li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
