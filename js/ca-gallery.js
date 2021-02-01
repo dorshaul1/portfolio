@@ -111,12 +111,8 @@ function renderModal() {
 function onSendMail(){
 
   var $elEmail = $('input[name=email')
-  console.log('$elEmail:', $elEmail.val())
   var $elSubject = $('input[name=subject]')
-  console.log('$elSubject:', $elSubject.val())
   var $elMassege = $('input[name=massege]')
-  console.log('$elMassege:', $elMassege.val())
-
 
   // https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&body=BODY
 }
