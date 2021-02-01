@@ -41,9 +41,9 @@
 
 function renderProtfolio() {
   var protfolios = getProtfolios()
-  var elPortfoliosList = $('.portfolios-list')
+  var $elPortfoliosList = $('.portfolios-list')
 
-  var strHTML = protfolios.map(function (protfolio) {
+  var strHTMLs = protfolios.map(function (protfolio) {
     return `
     <div class="col-md-4 col-sm-6 portfolio-item">
     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal-${protfolio.id}">
@@ -62,12 +62,12 @@ function renderProtfolio() {
   })
   // console.log('strHTML:', strHTML)
 
-  elPortfoliosList.html(strHTML)
+  $elPortfoliosList.html(strHTMLs)
 }
 
 function renderModal() {
   var protfolios = getProtfolios()
-  var elModal = $('.protfolio-modal')
+  var $elModal = $('.protfolio-modal')
 
   var strHTML = protfolios.map(function (protfolio) {
     return `  
@@ -105,5 +105,5 @@ function renderModal() {
   </div>`
   })
 
-  elModal.html(strHTML)
+  $elModal.html(strHTML)
 }
