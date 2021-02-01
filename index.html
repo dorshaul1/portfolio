@@ -35,6 +35,25 @@
     <!-- Contact -->
     <section id="contact">
       <h4>Contact Me</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Your E-mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Subject</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" name="subject" placeholder="Type subject here">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message Body</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="massege" placeholder="Type message text here"></textarea>
+        </div>
+
+        <button class="btn submit-btn" onclick="onSendMail()">submit</button>
+
+      </form>
     </section>
 
   </aside>
@@ -92,7 +111,7 @@
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-code fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
+          <h4 class="service-heading">Practical Development</h4>
           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
             quo inventore harum ex
             magni, dicta impedit.</p>

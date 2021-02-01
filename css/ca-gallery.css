@@ -902,3 +902,13 @@ fieldset[disabled] .btn-xl:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+.submit-btn{
+    color: white;
+    background-color:  rgb(1, 157, 157);;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(29, 126, 126);
+}
