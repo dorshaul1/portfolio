@@ -86,7 +86,7 @@ function renderModal() {
                   <!-- Project Details Go Here -->
                   <h2>${protfolio.name}</h2>
                   <p class="item-intro text-muted">${protfolio.title}</p>
-                  <img class="img-fluid d-block mx-auto" src=${protfolio.imgUrl} alt="">
+                  <img class="img-fluid-modal d-block mx-auto" src=${protfolio.imgUrl} alt="">
                   <p>${protfolio.desc}</p>
                   <ul class="list-inline">
                     <li>Date: ${protfolio.publishedAt}</li>
