@@ -114,5 +114,9 @@ function onSendMail(){
   var $elSubject = $('input[name=subject]')
   var $elMassege = $('input[name=massege]')
 
-  // https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&body=BODY
+  var mail = $elEmail.val()
+  var subject = $elSubject.val()
+  var massege = $elMassege.val()
+
+  window.open (`https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${subject}&body=${massege}`)
 }
